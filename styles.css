@@ -1,6 +1,20 @@
-.container {
+body {
+    background-color: red;
     display: grid;
-    background-color: rgb(190, 5, 36);
+    place-items: center;
+    height: 100vh;
+
+   
+    
+
+    
+}
+
+
+.container {
+    background-color: grey;
+    display: grid;
+    grid-auto-flow: column;
 }
 
 .dice {
